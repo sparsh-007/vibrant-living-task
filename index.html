@@ -18,6 +18,8 @@
     />
     <link rel="stylesheet" href="/index.css" />
     <link rel="stylesheet" href="/index2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/Arctext-master/js/jquery.arctext.js"></script> 
     <title>Vibrant Living</title>
   </head>
   <body>
@@ -108,21 +110,21 @@
         </div>
         <section class="third">
           <div class="container">
-            <div class="heaidng3">
-              <h1>KNOW YOUR FOOD</h1>
+            <div class="heading3">
+              <h1 class="arc1">  KNOW YOUR FOOD</h1>
             </div>
             <div class="lr_container">
               <div class="left">
                 <h3>Nutritional Facts <span><br>(PER 100gm)</span></h3>
                 <div class="nutrition_fact">
-                  <p>Energy <span>.............</span> 402 Kcal</p>
-                  <p>Fat <span>...................</span> 1.6gm</p>
-                  <p>Energy <span>.............</span> 402 Kcal</p>
-                  <p>Energy <span>.............</span> 402 Kcal</p>
-                  <p>Energy <span>.............</span> 402 Kcal</p>
-                  <p>Energy <span>.............</span> 402 Kcal</p>
-                  <p>Energy <span>.............</span> 402 Kcal</p>
-                  <p>Energy <span>.............</span> 402 Kcal</p>
+                  <p>Energy <span>......................</span> 402 Kcal</p>
+                  <p>Fat <span>............................</span> 1.6gm</p>
+                  <p>Of Which Saturates<span>...............</span> 9.0g</p>
+                  <p>Carbohydrates<span>....................</span> 7.4g</p>
+                  <p>Of Which Sugar<span>...................</span> 9.0g</p>
+                  <p>Fiber<span>............................</span> 1.6g</p>
+                  <p>Protein<span>..........................</span> 7.4g</p>
+                  <p>Salt<span>............................</span> 0.09g</p>
                 </div>
               </div>
               <div class="right">
@@ -155,5 +157,8 @@
 
         </section>
     </main>
+    <script>
+      $('.arc1').arctext({radius:330})
+    </script>
   </body>
 </html>

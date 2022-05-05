@@ -8,24 +8,32 @@
   justify-content: space-evenly;
   column-gap: 3.5%;
 }
-.thrid {
-  margin-top: 2%;
+.third {
+  background-color: #f5bb95;
 }
-.container{
-    background-color: #F5BB95;
+.heading3 {
+  text-align: center;
+  padding-top: 7rem;
+}
+.heading3 h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: #352817;
 }
 .lr_container {
   display: flex;
   justify-content: space-between;
   padding: 0 3rem;
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 .left {
   text-align: center;
   font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   color: #362918;
 }
 .left h3 {
@@ -35,20 +43,19 @@
   font-weight: bolder;
   color: #352817;
 }
-.left h3 span{
-    font-weight: lighter;
-    font-size: 18px;
+.left h3 span {
+  font-weight: lighter;
+  font-size: 18px;
 }
 .right {
   text-align: center;
   width: 450px;
 }
-.nutrition_fact span{
-    color: #F26B25;
-
+.nutrition_fact span {
+  color: #f26b25;
 }
-.nutrition_fact p{
-    margin-bottom: 0.5rem;
+.nutrition_fact p {
+  margin-bottom: 0.5rem;
 }
 
 .seeds {
@@ -70,13 +77,13 @@
   width: 60%;
 }
 .seeds div img {
-  width: 100px;
+  width: 89px;
   margin-bottom: 0.5rem;
 }
 .right h3 {
   font-family: "Roboto Mono";
   font-style: normal;
-  font-weight: 700;
-  /* font-size: 20px; */
+  font-weight: 900;
+  font-size: 17px;
   margin-bottom: 3rem;
 }
