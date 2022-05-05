@@ -8,14 +8,75 @@
   justify-content: space-evenly;
   column-gap: 3.5%;
 }
-.thrid{
-    margin-top: 2%;
-    background-color: #f8a271;
+.thrid {
+  margin-top: 2%;
 }
-path {
-    fill: transparent;
-  }
-  
-text {
-    fill: #FF9800;
-  }
+.container{
+    background-color: #F5BB95;
+}
+.lr_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin-top: 15rem;
+}
+.left {
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #362918;
+}
+.left h3 {
+  margin-bottom: 3rem;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: bolder;
+  color: #352817;
+}
+.left h3 span{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.right {
+  text-align: center;
+  width: 450px;
+}
+.nutrition_fact span{
+    color: #F26B25;
+
+}
+.nutrition_fact p{
+    margin-bottom: 0.5rem;
+}
+
+.seeds {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+}
+.seeds div {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seeds div p {
+  width: 60%;
+}
+.seeds div img {
+  width: 100px;
+  margin-bottom: 0.5rem;
+}
+.right h3 {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 20px; */
+  margin-bottom: 3rem;
+}
