@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffd7bf;
+}
+.center_img {
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  z-index: 100;
+}
+
+.nav-container {
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 130px;
+  width: 100%;
+}
+
+.center {
+  width: 40%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navlist {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  color: #352817;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right_icons img {
+  width: 30px;
+  margin: 0 0.5rem;
+}
+
+.heading1 {
+  margin-top: 3%;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 125px;
+  width: 885px;
+  height: 375px;
+  letter-spacing: -0.01em;
+  color: #352817;
+}
+.details_text {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 40%;
+}
+.hero {
+  padding-left: 2rem;
+  margin-top: 2%;
+}
+.review {
+  display: flex;
+  align-items: center;
+}
+.review_text {
+  margin-left: 1%;
+  margin-bottom: 0.3%;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #362918;
+}
+.stars img{
+  margin: 0 2px;
+  
+}
+.details {
+  margin-top: 3%;
+}
+.details_text {
+  margin-top: 1%;
+}
+.size {
+  margin-top: 1%;
+}
+.size p {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.05rem;
+  color: #362918;
+}
+.btn {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.button1 {
+  width: 138px;
+  height: 40px;
+  border-radius: 42px;
+  border: 2px solid #f8a271;
+  background-color: transparent;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #362918;
+}
+.button2 {
+  margin-left: 1%;
+  width: 138px;
+  height: 40px;
+  border-radius: 42px;
+  border: 2px solid #f8a271;
+  background-color: transparent;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #362918;
+}
+.price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #362918;
+}
+.button1:hover {
+  background: #f8a271;
+}
+.button2:hover {
+  background: #f8a271;
+}

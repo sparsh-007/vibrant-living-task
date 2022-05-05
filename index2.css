@@ -1,0 +1,21 @@
+.about_line {
+  background-color: #f8a271;
+  margin-top: 5%;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 3.5%;
+}
+.thrid{
+    margin-top: 2%;
+    background-color: #f8a271;
+}
+path {
+    fill: transparent;
+  }
+  
+text {
+    fill: #FF9800;
+  }
