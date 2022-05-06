@@ -157,3 +157,12 @@ body {
 .button2:hover {
   background: #f8a271;
 }
+ .navlist li{
+   border: 2px solid transparent;
+   padding: 0.5rem 1rem;
+   border-radius: 28px;
+
+ }
+ .navlist li:hover{
+   border-color:#352817 ;
+ }
