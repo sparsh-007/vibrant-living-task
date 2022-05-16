@@ -5,6 +5,7 @@
 }
 body {
   background-color: #ffd7bf;
+  overflow-x: hidden;
 }
 .center_img {
   position: fixed;
@@ -12,7 +13,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 31%;
-  z-index: 100;
+  z-index: 2;
+}
+#arc {
+  position: relative;
+  z-index: 3;
 }
 
 .nav-container {
@@ -34,6 +39,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  backdrop-filter: blur(50px);
 }
 .navlist {
   list-style-type: none;
@@ -89,9 +95,8 @@ body {
   line-height: 20px;
   color: #362918;
 }
-.stars img{
+.stars img {
   margin: 0 2px;
-  
 }
 .details {
   margin-top: 3%;
@@ -112,8 +117,9 @@ body {
   color: #362918;
 }
 .btn {
-  margin-top: 1%;
-  margin-bottom: 2%;
+  width: fit-content;
+  height: fit-content;
+  margin: 2rem 0;
 }
 .button1 {
   width: 138px;
@@ -157,12 +163,11 @@ body {
 .button2:hover {
   background: #f8a271;
 }
- .navlist li{
-   border: 2px solid transparent;
-   padding: 0.5rem 1rem;
-   border-radius: 28px;
-
- }
- .navlist li:hover{
-   border-color:#352817 ;
- }
+.navlist li {
+  border: 2px solid transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 28px;
+}
+.navlist li:hover {
+  border-color: #352817;
+}

@@ -3,6 +3,11 @@
   margin-top: 5%;
   height: 90px;
   width: 100%;
+  /* z-index: 6;
+  position: relative; */
+}
+.line2 {
+  padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -86,4 +91,58 @@
   font-weight: 900;
   font-size: 17px;
   margin-bottom: 3rem;
+}
+
+.scrolling {
+  position: relative;
+  animation: scrolling 15s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* .radio-toolbar {
+  margin: 10px;
+} */
+
+.radio-toolbar input[type="radio"] {
+  display: none;
+}
+
+.radio-toolbar label {
+  /* display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px; */
+  /* ////////// */
+  /* width: 138px; */
+  /* height: 40px; */
+  border-radius: 42px;
+  border: 2px solid #f8a271;
+  background-color: transparent;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  color: #362918;
+  padding: 0.5rem;
+  margin-right: 10px;
+}
+
+.radio-toolbar label:hover {
+  background: #f8a271;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+  background: #f8a271;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+  background: #f8a271;
 }
