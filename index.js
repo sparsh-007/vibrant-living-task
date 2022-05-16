@@ -1,1 +1,9 @@
-$('#simple_arc').circleType({radius:135});
+window.onscroll = function () {
+  var top = window.scrollY;
+  console.log(top);
+  if (top>=875 && top<=923git) {
+    document.getElementById("cent").classList.add("active");
+  } else{
+    document.getElementById("cent").classList.remove("active");
+  }
+};
